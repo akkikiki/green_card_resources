@@ -1,0 +1,116 @@
+\documentclass[10pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage[table]{xcolor}
+\definecolor{lightgray}{RGB}{240,240,240}
+
+% Define a command for table font size
+\newcommand{\tablefontsize}{\small}
+
+\begin{document}
+
+% Header Information
+\noindent
+{\small
+\begin{tabular}{lll}
+Name: X & Date of Birth: XX/XX/XX & Sex: X
+\end{tabular}
+}
+
+\vspace{0.8cm}
+
+% Tuberculin Section
+\noindent{\small\textbf{Tuberculin Reaction and BCG Vaccination}}\\[0.2cm]
+{\tablefontsize
+\begin{tabular}{|l|l|l|l|l|l||l|p{3.5cm}|}
+\hline
+\rowcolor{lightgray}
+Test Date & Injection & Physician's & Reaction & Result & Sign of Person & BCG Vaccination & Physician's Sign \\
+\rowcolor{lightgray}
+Y/M/D & Site & Sign & & & Judged & Y/M/D & \\
+\hline
+      &      &      & &  &       & & \\
+ &    &      & &   &  &   & \\
+\hline
+\end{tabular}
+}
+
+\vspace{0.8cm}
+
+% Pertussis, Diphtheria, Tetanus Section
+\noindent{\small\textbf{Pertussis, Diphtheria, tetanus}}\\[0.2cm]
+{\tablefontsize
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline
+\rowcolor{lightgray}
+\multicolumn{2}{|l|}{Tim} & Immunization Date Y/M/D & Type of Vaccine & Lot No (Amount) & Physician's Sign \\
+\hline
+\multirow{3}{*}{First Time} & I &  &  &  & \\
+\cline{2-6}
+& II &           &     &                  & \\
+\cline{2-6}
+& III &           &     &                  & \\
+\hline
+            & &            & &   &                            \\
+\hline
+            & &           &  &  & \\
+\hline
+\end{tabular}
+}
+
+\vspace{0.8cm}
+
+% Polio Section
+\noindent{\small\textbf{Poliomyelitis (Polio)}}\\[0.2cm]
+{\tablefontsize
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+\rowcolor{lightgray}
+Time & Immunization Date Y/M/D & Lot No & Remarks & Physician's Sign \\
+\hline
+First Time &            & & & \\
+\hline
+Second Time &           & & & \\
+            &           & & & \\
+\hline
+\end{tabular}
+}
+
+\vspace{0.8cm}
+
+% Measles Section
+\noindent{\small\textbf{Measles, Mumps, and Rubella}\\[0.2cm]
+{\tablefontsize
+\begin{tabular}{|l|l|l|p{9cm}|}
+\hline
+\rowcolor{lightgray}
+Immunization Date Y/M/D & Lot No & Remarks & Physician's Sign \\
+\hline
+                         &    & &                                                                                                              \\
+
+\hline
+\end{tabular}
+}
+
+\vspace{0.8cm}
+
+% Other Vaccinations Section
+\noindent{\small\textbf{Other Vaccinations}}\\[0.2cm]
+{\tablefontsize
+\begin{tabular}{|l|l|l|p{3cm}|l|p{3.5cm}|}
+\hline
+\rowcolor{lightgray}
+Vaccine & Immunization Date Y/M/D & Lot No & Amount of Intake & Remarks & Physician's Sign \\
+\hline
+Japanese Encephalitis & & &  & & \\
+\hline
+Japanese Encephalitis & & &   & & \\
+\hline
+Japanese Encephalitis & & &   & & \\
+\hline
+\end{tabular}
+}
+
+\end{document}
