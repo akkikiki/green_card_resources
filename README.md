@@ -4,7 +4,8 @@ I-639
 母子手帳のテンプレートが必要だったのLatexで作ったやつを公開
 
 ## Requirements
-MacLatex or something is installed.
+If running it locally MacLatex or something similar needs to be installed.
+Overleaf should also be good too!
 
 ## How to run
 ```
