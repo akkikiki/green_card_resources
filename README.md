@@ -1,6 +1,6 @@
 # green_card_resources
 
-I-639
+I-693
 母子手帳のテンプレートが必要だったのLatexで作ったやつを公開
 
 ## Requirements
